@@ -43,20 +43,29 @@ The model provides a list of locations from the user cluster, which sometimes mi
 
 # Example of recommendation
 Let's check recommendation for the user, who wrote following review for one of his previous stays:
+
 "The location is a 5-minute walk to the borough station, which is very convenient.\nThere are also 3 bedrooms, which are very good value for money.\nThe response from the landlord was also quick and very helpful"
+
 From this review we can notice that user appreciate when host is quick and responsive and that the place is close to metro station.
 Our model suggested following listings for this user: [31325432, 20098244, 35024701].
 Here are reviews other users wrote for them:
 ** 31325432 **
-'I had a great stay!'\n
+'I had a great stay!'
+
 'Great location near Wembley and frequent trains to the city'
+
 ** 20098244 **
-'Great host \nGood communication and great place to stay' \n
+'Great host. Good communication and great place to stay' 
+
 'Great stay, very close to Gunnersbury. Large, comfortable beds and very clean. Ricardo was a great host.'
+
 ** 35024701 ** 
-'You can expect kindness, and a cute ambient',
-'Great place 15 minutes walk from tube. Quiet at night and Samantha is great crack',
-'Sam is very hospitable.',
+'You can expect kindness, and a cute ambient'
+
+'Great place 15 minutes walk from tube. Quiet at night and Samantha is great crack'
+
+'Sam is very hospitable.'
+
 'Samantha was a very gracious host who went out of her way to be helpful. I highly recommend her accommodation!'
 
 From the reviews we can conclude that all suggested locations have responsive host and also located close to metro station. Based on facts we know about the user, most probably (s)he will find these lisings worth to check too.
