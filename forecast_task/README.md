@@ -33,15 +33,17 @@ Both models give good estimation of median. However baseline model overforecast 
 
 To quantify the performance severl metrics used for the evaluation: 
 $$bias  = { \sum forecast_{i} - \sum actuals_{i} \over \sum actuals_{i}}$$
-$$RMAD = {mean(|forecast_{i} - actuals_{i}|)} \over mean(actuals_{i})$$
+$$RMAD = {{mean(|forecast_{i} - actuals_{i}|)} \over mean(actuals_{i})}$$
 $$RMSE = mean(\sqrt{(forecast_{i} - actuals_{i})^2})$$
 
 bias gives as direct over- or under- estimation of prices. RMAD gives us estimation of how good median of prices is predicted. RMSE tells us how close mean values of prices are predicted and also is sensitive to outliers
 
 Overall KPIs:
+
 <img src="images/total_KPIs.png" width="800" />
 
 KPIs per categories:
+
 <img src="images/total_KPIs_cat.png" width="800" />
 
 As one can see both models give quite good forecast. The ML based model catched the main property of data and gives as good forecast as a simple baseline. However ML model performs only slightly better compare to baseline and most probably has room for improvement, especially in categories, which does not have much data so far. Due to lack of time is was not investigated, but definetly should be adressed in a follow up study.
