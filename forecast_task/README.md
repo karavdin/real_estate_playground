@@ -8,6 +8,7 @@ The goal of this project is a rental price forecasting model based on the prices
 - There seems to be change in categories naming in the end of 2019 (e.g "APARTMENT" was renamed into "APARTMENT, FLAT"). To improve data quality, such categroies are merged together.
 - Prices and space size are highly correlated
 - Median of prices in a category are quite stable in each of space bins and don't change much with time. Example for "APARTMENT, FLAT" category:
+- 
   <img src="images/median_prices_bins.png" width="800" />
 
 # Scope definition
@@ -18,12 +19,16 @@ The goal of this project is a rental price forecasting model based on the prices
 
 # Modeling and evaluation
 As a baseline I use median prices in category/space-sizes-bins. 
+
 As a alternative to baseline, I created ML model with XGBoost regressor with GridSearchCV for hyperparameter optimisation. XGBoost is very robost and efficient algorithm, which will be easy to support in future use in production enviroment. However it does not work with time-series data and many time-related features were created instead.
+
 To demonstrate performance of our ML model back-testing is used: data from 2018 till end of 2020 is used for training and data from 2021 is used for the model evalution on week-category level.
 Here is median of prices forecast comparison with actual prices:
+
 <img src="images/total_fc.png" width="800" />
 
 Both models give good estimation of median. However baseline model overforecast prices minimum:
+
 <img src="images/total_fc_min.png" width="800" />
 
 To quantify the performance severl metrics used for the evaluation: 
