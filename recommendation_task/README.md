@@ -50,16 +50,19 @@ From this review we can notice that user appreciate when host is quick and respo
 Our model suggested following listings for this user: [31325432, 20098244, 35024701].
 Here are reviews other users wrote for them:
 ****31325432****
+
 'I had a great stay!'
 
 'Great location near Wembley and frequent trains to the city'
 
 ****20098244****
+
 'Great host. Good communication and great place to stay' 
 
 'Great stay, very close to Gunnersbury. Large, comfortable beds and very clean. Ricardo was a great host.'
 
 ****35024701****
+
 'You can expect kindness, and a cute ambient'
 
 'Great place 15 minutes walk from tube. Quiet at night and Samantha is great crack'
