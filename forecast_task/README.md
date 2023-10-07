@@ -40,11 +40,11 @@ bias gives as direct over- or under- estimation of prices. RMAD gives us estimat
 
 Overall KPIs:
 
-<img src="images/total_KPIs.png" width="800" />
+<img src="images/total_KPIs.png" width="900" />
 
 KPIs per categories:
 
-<img src="images/total_KPIs_cat.png" width="800" />
+<img src="images/total_KPIs_cat.png" width="900" />
 
 As one can see both models give quite good forecast. The ML based model catched the main property of data and gives as good forecast as a simple baseline. However ML model performs only slightly better compare to baseline and most probably has room for improvement, especially in categories, which does not have much data so far. Due to lack of time is was not investigated, but definetly should be adressed in a follow up study.
 
