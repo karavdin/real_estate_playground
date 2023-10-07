@@ -54,3 +54,6 @@ During one-day project it was not possible to cover many things. Below is list o
 - Some data (e.g outliers and categories with just a few data points) requires attention and discussion with stakeholders.
 - As objective function I used the absolute error (reg:absoluteerror), one can experiment with different build-in objective functions
 - ML model performance is not satisfying in some categories, which should be adressed with deep dive analysis
+
+## System prototype
+Jupyter notebook used in this project is obviously can not be used in production. Instead one could push the data into database, create an app and serve the forecast via FastAPI. In addition to it we also need processes to update the data in database, retrain the model and create new forecast. Here one can use Airflow DAGs or similar tools for process scheduling and orchestration.

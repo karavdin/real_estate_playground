@@ -1,0 +1,11 @@
+jupyterlab
+pandas
+pandas_profiling
+ipywidgets
+plotly
+jupyter-dash #for plotly
+altair
+cyclic_boosting
+matplotlib == 3.7
+xgboost
+geopandas
