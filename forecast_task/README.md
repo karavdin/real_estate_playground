@@ -32,9 +32,9 @@ Both models give good estimation of median. However baseline model overforecast 
 <img src="images/total_fc_min.png" width="800" />
 
 To quantify the performance severl metrics used for the evaluation: 
-$$ bias  = { \sum forecast_{i} - \sum actuals_{i} \over \sum actuals_{i}} $$
-$$ RMAD = {mean(|forecast_{i} - actuals_{i}|)} \over mean(actuals_{i}) $$
-$$ RMSE = mean(\sqrt{(forecast_{i} - actuals_{i})^2}) $$
+$$bias  = { \sum forecast_{i} - \sum actuals_{i} \over \sum actuals_{i}}$$
+$$RMAD = {mean(|forecast_{i} - actuals_{i}|)} \over mean(actuals_{i})$$
+$$RMSE = mean(\sqrt{(forecast_{i} - actuals_{i})^2})$$
 
 bias gives as direct over- or under- estimation of prices. RMAD gives us estimation of how good median of prices is predicted. RMSE tells us how close mean values of prices are predicted and also is sensitive to outliers
 
